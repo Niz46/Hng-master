@@ -21,8 +21,8 @@ A simple and responsive profile card built with HTML, CSS, and JavaScript. The c
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/your-username/profile-card.git
-   ```plaintext
+   git clone https://github.com/Niz46/Hng-master.git
+   ```
 
 2. Navigate to the project folder:
 
