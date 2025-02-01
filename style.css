@@ -17,7 +17,7 @@ body {
 
 .container {
   height: 470px;
-  width: 350px;
+  width: 600px;
   border: 2px solid;
   border-left-color: #fefae0;
   border-right-color: #fefae0;
@@ -58,6 +58,10 @@ img {
   width: 250px;
   border-radius: 50%;
   background: #606c38;
+}
+
+a{
+  color: transparent;
 }
 
 .info {
@@ -128,7 +132,7 @@ img {
 
 .txt-container p {
   font-size: 14px;
-  max-width: 300px;
+  max-width: 600px;
 }
 
 .container:hover .txt-container p {
@@ -209,4 +213,71 @@ img {
   animation: topSlide 1s ease forwards;
   opacity: 0;
   animation-delay: 1s;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    width: 300px;
+    height: 430px;
+  }
+  .container:hover .image-container {
+    height: 250px;
+    width: 250px;
+  }
+  img {
+    width: 220px;
+  }
+  .txt-container h2 {
+    font-size: 35px;
+  }
+  .txt-container h4 {
+    font-size: 18px;
+  }
+  .txt-container p {
+    font-size: 13px;
+  }
+  .btn {
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .social-links i {
+    height: 35px;
+    width: 35px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 260px;
+    height: 400px;
+  }
+  .container:hover .image-container {
+    height: 200px;
+    width: 200px;
+  }
+  img {
+    width: 180px;
+  }
+  .txt-container h2 {
+    font-size: 30px;
+  }
+  .txt-container h4 {
+    font-size: 16px;
+  }
+  .txt-container p {
+    font-size: 12px;
+  }
+  .btn {
+    width: 80px;
+    height: 28px;
+    font-size: 13px;
+  }
+  .social-links i {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+  }
 }
