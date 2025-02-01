@@ -17,7 +17,7 @@ body {
 
 .container {
   height: 470px;
-  width: 600px;
+  width: 500px;
   border: 2px solid;
   border-left-color: #fefae0;
   border-right-color: #fefae0;
@@ -56,6 +56,7 @@ body {
 
 img {
   width: 250px;
+  height: 250px;
   border-radius: 50%;
   background: #606c38;
 }
@@ -132,7 +133,7 @@ a{
 
 .txt-container p {
   font-size: 14px;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .container:hover .txt-container p {
